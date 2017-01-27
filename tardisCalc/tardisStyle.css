@@ -1,0 +1,144 @@
+.tardis{
+    padding-bottom: 10%;
+}
+.lampBaseBottom{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    left: 520px;
+    top: 185px;
+    border-radius: 5px;
+    background: blue;
+}
+.lampBaseTop{
+    position: absolute;
+    border-bottom: 90px solid blue;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: -20px;
+	width: 50px;
+    left: 510px;
+    top: 181px;
+    border-radius: 20px;
+}
+.lampCore{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background: blue;
+    left: 535px;
+    top: 133px;
+    border-radius: 5px;
+}
+.coreLeft{
+    position: absolute;
+    background: white;
+    width: 15px;
+    height: 42px;
+    left: 3px;
+    top: 3px;
+    border-radius: 3px
+}
+.coreRight{
+    position: absolute;
+    background: white;
+    width: 15px;
+    height: 42px;
+    left: 22px;
+    top: 3px;
+    border-radius: 3px
+
+}
+.lampTop {
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    background: blue;
+    top: 117px;
+    left: 530px;
+    border-radius: 90px 90px 0 0;
+}
+.firstBlock {
+    width: 400px;
+    height: 70px;
+    background: blue;
+    left: 340px;
+    top:  200px;
+    position: absolute;
+}
+.secBlock{
+    width: 440px;
+    height: 60px;
+    background: blue;
+    left: 320px;
+    top: 220px;
+    position: absolute;
+}
+.thirdBlock {
+    width: 360px;
+    height: 90px;
+    background: blue;
+    left: 365px;
+    top: 188px;    
+    position: absolute;
+}
+.policeBox{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background: black;
+    left: 340px;
+    top: 225px;
+}
+.policeBox span{
+    color: aliceblue;
+}
+.police{
+    font-size: 35px;
+    position: absolute;
+    left:  50px;
+    top: 5px;
+}
+.box{
+    font-size: 35px;
+    position: absolute;
+    right:  50px;
+    top: 5px
+}
+.publicCall{
+    position: absolute;
+    left: 195px;
+    top: 6px;
+    width: 60px;
+    word-spacing: 0px;
+    text-align: center;
+}
+.middle{
+    position: absolute;
+    height: 650px;
+    width: 430px;
+    background: blue;
+    left: 325px;
+    top: 280px;
+}
+
+.bottomStep{
+    position: absolute;
+    width: 430px;
+    height: 0px;
+    border-bottom: 40px solid blue;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+    left:305px;
+    top:929px;
+    bottom: 10px
+}
+.bottom{
+    position: absolute;
+    background: blue;
+    margin-bottom: 10%;
+    height: 35px;
+    width: 470px;
+    top: 969px;
+    left: 305px;
+}
