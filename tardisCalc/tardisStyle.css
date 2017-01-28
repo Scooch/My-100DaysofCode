@@ -73,6 +73,9 @@
     left: 320px;
     top: 220px;
     position: absolute;
+    box-shadow: 0px 8px 14px black;
+    z-index: 3;
+    
 }
 .thirdBlock {
     width: 360px;
@@ -89,6 +92,7 @@
     background: black;
     left: 340px;
     top: 225px;
+    z-index: 3;
 }
 .policeBox span{
     color: aliceblue;
@@ -98,12 +102,15 @@
     position: absolute;
     left:  50px;
     top: 5px;
+    z-index: 4;
 }
 .box{
     font-size: 35px;
     position: absolute;
     right:  50px;
-    top: 5px
+    top: 5px;
+    z-index: 4;
+        
 }
 .publicCall{
     position: absolute;
@@ -112,6 +119,7 @@
     width: 60px;
     word-spacing: 0px;
     text-align: center;
+    z-index: 4
 }
 .middle{
     position: absolute;
@@ -121,6 +129,65 @@
     left: 325px;
     top: 280px;
 }
+.colLeft{
+    position: absolute;
+    height: 650px;
+    width: 50px;
+    background: blue;
+    border: 1.5px solid;
+    z-index: 1;
+    left: 0px
+}
+.colRight{
+    position: absolute;
+    height: 650px;
+    width: 50px;
+    background: blue;
+    right: 0px;
+    border: 2px solid;
+    z-index: 1;
+}
+.doorLeft{
+    position: absolute;
+    height: 620px;
+    width: 168px;
+    background: navy;
+    left: 53px;
+    top: 16px;
+    border: 2px solid
+}
+.doorRight{
+    position: absolute;
+    height: 620px;
+    width: 155px;
+    background: navy;
+    top:16px;
+    right: 50px;
+    border: 2px solid;
+}
+.doorJam{
+    position: absolute;
+    height: 620px;
+    width: 15px;
+    background: blue;
+    right: 140px;
+    z-index:4;
+    border: 1px solid;
+}
+.winLeft{
+    position: absolute;
+    height: 100px;
+    width: 140px;
+    background: white;
+    left: 13px;
+    top: 45px;
+    z-index: ;
+}
+
+
+
+
+
 
 .bottomStep{
     position: absolute;
@@ -131,9 +198,9 @@
 	border-right: 20px solid transparent;
     left:305px;
     top:929px;
-    bottom: 10px
+    bottom: 10px;
 }
-.bottom{
+.bottomBlock{
     position: absolute;
     background: blue;
     margin-bottom: 10%;
